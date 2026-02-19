@@ -1,0 +1,16 @@
+[package]
+name = "university-project-report-template"
+version = "0.1.0"
+compiler = "0.12.0"
+entrypoint = "lib.typ"
+authors = ["Nithilan Rameshkumar <https://github.com/nithitsuki>"]
+license = "MIT"
+description = ""
+repository = "https://github.com/nithitsuki/university-project-report-typst"
+keywords = ["project", "diapositive", "report"]
+categories = ["project", "layout", "components"]
+exclude = ["svg", "example.typ"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
