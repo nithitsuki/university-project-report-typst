@@ -1,5 +1,5 @@
 // Import the template library
-#import "../university-project-report-template.typ": *
+#import "@local/university-project-report-template:0.1.0": *
 
 // Configure and use the report template
 #show: report.with(
@@ -62,8 +62,10 @@
   - To develop a machine learning model for traffic prediction
   - To implement an adaptive signal control system
   - To evaluate the system performance under various traffic conditions
-]
 
+  == 1.4 Lorem Ipsum it
+  #lorem(500)
+]
 // CHAPTER 2: LITERATURE REVIEW 
 #pagebreak()
 #chapter("Literature Review", "2", "LITERATURE REVIEW")[

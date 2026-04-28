@@ -1,11 +1,11 @@
 [package]
-name = "university-project-report-template"
+name = "university-project-report-typst"
 version = "0.1.0"
 compiler = "0.12.0"
 entrypoint = "lib.typ"
 authors = ["Nithilan Rameshkumar <https://github.com/nithitsuki>"]
 license = "MIT"
-description = ""
+description = "Typst template for amrita project reports in usually specified format."
 repository = "https://github.com/nithitsuki/university-project-report-typst"
 keywords = ["project", "diapositive", "report"]
 categories = ["project", "layout", "components"]

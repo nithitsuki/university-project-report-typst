@@ -37,16 +37,29 @@
     #text(size: font-sizes.normal, weight: "bold", style: "italic")[Submitted by]
     #v(0.6cm)
 
-    #for (id, name) in enrollment [
-      #text(size: font-sizes.small)[#id] #h(2cm) #text(size: font-sizes.small)[#name] \
-    ]
+    #if enrollment != () {
+      block(width: 50%,
+      table(
+        columns: (1fr, 1fr),
+        stroke: none,
+        gutter: 0.2cm,
+        align: (center, center),
+        inset: 0pt,
+        text(size: font-sizes.small, weight: "semibold")[Enrollment No.],
+        text(size: font-sizes.small, weight: "semibold")[Name],
+        ..enrollment.map(((id, name)) => (
+          text(size: font-sizes.small, id),
+          text(size: font-sizes.small, name)
+        )).flatten()
+      )
+      )
+    }
     #v(1cm)
 
     #text(size: font-sizes.normal, weight: "bold")[in partial fulfillment for the award of the]
 
     #text(size: font-sizes.subheading, weight: "bold")[#degree-name] \
-    #text(size: font-sizes.normal)[IN]
-
+    #text(size: font-sizes.normal)[IN\ ]
     #text(size: font-sizes.normal)[#department-name]
     #v(1cm)
 
@@ -56,8 +69,7 @@
     }
 
     #text(size: font-sizes.normal, weight: "semibold")[#school-name]
-    #v(0.4cm)
-
+\
     #text(size: font-sizes.normal, weight: "semibold")[#university-name]
   ]
 }

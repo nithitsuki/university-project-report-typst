@@ -1,1 +1,1 @@
-#import "university-project-report-template.typ": *
+#import "amrita-project-report-template.typ": *
