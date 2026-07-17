@@ -32,7 +32,7 @@ git clone https://github.com/nithitsuki/university-project-report-typst.git "${X
 
 **macOS:**
 ```bash
-git clone https://github.com/nithitsuki/university-project-report-typst.git ~/Library/Application/typst/packages/local/university-project-report-template/0.1.0
+git clone https://github.com/nithitsuki/university-project-report-typst.git ~/Library/Application\ Support/typst/packages/local/university-project-report-template/0.1.0
 ```
 
 **Windows (PowerShell):**
