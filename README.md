@@ -27,23 +27,23 @@ To install this package locally, clone the repository into your local Typst pack
 
 **Linux:**
 ```bash
-git clone https://github.com/nithitsuki/university-project-report-typst.git "${XDG_DATA_HOME:-$HOME/.local/share}/typst/packages/local/university-project-report-template/0.1.0"
+git clone https://github.com/nithitsuki/university-project-report-typst.git "${XDG_DATA_HOME:-$HOME/.local/share}/typst/packages/local/university-project-report-typst/0.1.0"
 ```
 
 **macOS:**
 ```bash
-git clone https://github.com/nithitsuki/university-project-report-typst.git ~/Library/Application\ Support/typst/packages/local/university-project-report-template/0.1.0
+git clone https://github.com/nithitsuki/university-project-report-typst.git ~/Library/Application\ Support/typst/packages/local/university-project-report-typst/0.1.0
 ```
 
 **Windows (PowerShell):**
 ```powershell
-git clone https://github.com/nithitsuki/university-project-report-typst.git "$env:APPDATA/typst/packages/local/university-project-report-template/0.1.0"
+git clone https://github.com/nithitsuki/university-project-report-typst.git "$env:APPDATA/typst/packages/local/university-project-report-typst/0.1.0"
 ```
 
 Then you can start using it with:
 
 ```bash
-typst init "@local/university-project-report-template:0.1.0"
+typst init "@local/university-project-report-typst:0.1.0"
 ```
 
 ## Usage
